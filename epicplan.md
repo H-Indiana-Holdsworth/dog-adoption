@@ -2,16 +2,16 @@
 
 ## App.js
 
-- [ ] `<Route exact path=/home component={Dogs}`
+- [x] `<Route exact path=/home component={Dogs}`
 - [ ] `<Route exact path=/dogs/:id component={Dog}`
 
 ## Views - have state
 
 ### Dogs - A page that lists all of the DogCards
 
-- [ ] use useEffect to fetchDogs the list of DogCards
-- [ ] use useState to define the dogs variable
-- [ ] `return(<DogCards />)`
+- [x] use useEffect to fetchDogs the list of DogCards
+- [x] use useState to define the dogs variable
+- [x] `return(<DogCards />)`
 
 ### DogCard - A page that renders info about a single dog
 
@@ -23,7 +23,7 @@
 
 ### DogList - Renders all of the dog cards
 
-- [ ] use a .map to render the dog cards
+- [x] use a .map to render the dog cards
 
 ### DogDetail - Renders dog info
 

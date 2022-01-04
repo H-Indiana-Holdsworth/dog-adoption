@@ -3,7 +3,7 @@
 ## App.js
 
 - [x] `<Route exact path=/home component={Dogs}`
-- [ ] `<Route exact path=/dogs/:id component={Dog}`
+- [x] `<Route exact path=/dogs/:id component={Dog}`
 
 ## Views - have state
 
@@ -15,9 +15,9 @@
 
 ### DogCard - A page that renders info about a single dog
 
-- [ ] use useEffect to fetchDogById
-- [ ] use useState to define DogCard variable
-- [ ] `return(<DogDetail />)`
+- [x] use useEffect to fetchDogById
+- [x] use useState to define DogCard variable
+- [x] `return(<DogDetail />)`
 
 ## Components - have no state
 
@@ -27,11 +27,11 @@
 
 ### DogDetail - Renders dog info
 
-- [ ] renders dog info
+- [x] renders dog info
 
 ## Services
 
 ### dogs.js
 
-- [ ] make api call using fetchDogs to get all DogCards
-- [ ] make api call using fetchDogById to get a specific dog
+- [x] make api call using fetchDogs to get all DogCards
+- [x] make api call using fetchDogById to get a specific dog

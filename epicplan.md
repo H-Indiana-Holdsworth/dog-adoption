@@ -2,7 +2,7 @@
 
 ## App.js
 
-- [ ] `<Route exact path=/dogs component={Dogs}`
+- [ ] `<Route exact path=/home component={Dogs}`
 - [ ] `<Route exact path=/dogs/:id component={Dog}`
 
 ## Views - have state
@@ -17,7 +17,7 @@
 
 - [ ] use useEffect to fetchDogById
 - [ ] use useState to define DogCard variable
-- [ ] `return(<DogCard />)`
+- [ ] `return(<DogDetail />)`
 
 ## Components - have no state
 

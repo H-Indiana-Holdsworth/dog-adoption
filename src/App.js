@@ -3,7 +3,6 @@ import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import './App.css';
 import Dogs from './Views/Dogs';
 import DogCard from './Views/DogCard';
-import Header from './Components/Header';
 
 function App() {
   return (

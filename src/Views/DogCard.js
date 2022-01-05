@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react';
 import { getDogsById } from '../services/service-dogs';
 import DogDetail from '../Components/DogDetail';
+import Header from '../Components/Header';
 
 export default function DogCard(props) {
   const [dogCard, setDogCard] = useState([]);
@@ -24,6 +25,7 @@ export default function DogCard(props) {
   return (
     <div>
       <DogDetail dogCard={dogCard} />
+      <Header />
     </div>
   );
 }

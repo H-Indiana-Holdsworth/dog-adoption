@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DogCard should render header 1`] = `
+<div>
+  <div>
+    <div
+      class="dog-card"
+    >
+      <h2>
+        Meet 
+        Barton
+      </h2>
+      <p>
+        <img
+          class="dog-img"
+          src="https://placedog.net/500?id=6"
+        />
+      </p>
+      Barton
+       is a 
+      1
+       year old 
+      Weimaraner
+      <p>
+        Adores every person he meets. Very social and lots of energy
+      </p>
+    </div>
+    <header>
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </header>
+  </div>
+</div>
+`;

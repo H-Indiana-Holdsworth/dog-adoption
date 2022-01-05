@@ -1,15 +1,17 @@
 import { render, screen } from '@testing-library/react';
 import { MemoryRouter, Route } from 'react-router-dom';
-import DogCard from './DogCard';
+import DogCard from '../Views/DogCard';
 
-test('DogCard should render header', () => {
+test('DogCard should render header', async () => {
   const { container } = render(
-    <MemoryRouter initialEntries={['/dogs/1']}>
-      <Route exact path="/dogs/:id" component={DogCard} />
+    <MemoryRouter initialEntries={['/dogs/10']}>
+      <Route exact path="/dogs/:id">
+        <DogCard match={{ params: { id: 10 } }} />
+      </Route>
     </MemoryRouter>
   );
 
-  screen.getByText('Meet Barton');
+  await screen.findByText('Meet Barton');
 
   expect(container).toMatchSnapshot();
 });

@@ -1,4 +1,4 @@
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, NavLink } from 'react-router-dom';
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
 import './App.css';
 import Dogs from './Views/Dogs';
@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
+        <NavLink to="/admin">Admin</NavLink>
         <Switch>
           <Route exact path="/" component={Dogs} />
           <Route exact path="/dogs/:id" component={DogCard} />

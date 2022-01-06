@@ -14,7 +14,7 @@ export default function DogDetail({ dogCard }) {
         <p>{dogCard.bio}</p>
       </div>
 
-      <Link to={`/dogs/:id/edit`}>Edit</Link>
+      <Link to={`/dogs/${dogCard.id}/edit`}>Edit</Link>
     </>
   );
 }

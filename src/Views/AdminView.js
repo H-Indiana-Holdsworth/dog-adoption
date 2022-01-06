@@ -1,6 +1,7 @@
 import React from 'react';
 import { useState } from 'react/cjs/react.development';
 import DogForm from '../Components/DogForm';
+import Header from '../Components/Header';
 import { createDog } from '../services/service-dogs';
 
 export default function AdminView() {
@@ -18,6 +19,7 @@ export default function AdminView() {
 
   return (
     <div>
+      <Header />
       <DogForm {...dog} handleSubmit={handleSubmit} updateDogState={updateDogState} />
     </div>
   );

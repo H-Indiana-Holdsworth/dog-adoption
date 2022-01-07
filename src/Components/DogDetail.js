@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './DogDetail.css';
 
-export default function DogDetail({ dogCard }) {
+export default function DogDetail({ dogCard, handleDelete }) {
   return (
     <>
       <div className="dog-card" key={dogCard.id}>
@@ -13,6 +13,8 @@ export default function DogDetail({ dogCard }) {
         {dogCard.name} is a {dogCard.age} year old {dogCard.breed}
         <p>{dogCard.bio}</p>
       </div>
+
+      <button onClick={handleDelete}>Delete</button>
 
       <Link to={`/dogs/${dogCard.id}/edit`}>Edit</Link>
     </>

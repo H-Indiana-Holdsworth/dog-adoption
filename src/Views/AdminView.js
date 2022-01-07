@@ -14,8 +14,12 @@ export default function AdminView() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await createDog(dog);
-    alert(`${dog.name} was successfully created`);
+    try {
+      await createDog(dog);
+      alert(`${dog.name} was successfully created`);
+    } catch (error) {
+      alert(`${dog.name} was not successfully created`);
+    }
   };
 
   return (

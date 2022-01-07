@@ -8,23 +8,31 @@ exports[`DogCard should render header 1`] = `
     >
       <h2>
         Meet 
-        Barton
+        Lil Mark
       </h2>
       <p>
         <img
           class="dog-img"
-          src="https://placedog.net/500?id=6"
+          src="https://placedog.net/500?id=41"
         />
       </p>
-      Barton
+      Lil Mark
        is a 
-      1
+      5
        year old 
-      Weimaraner
+      Pug
       <p>
-        Adores every person he meets. Very social and lots of energy
+        Hide your Llamas and their milk, Lil Mark loves that stuff
       </p>
     </div>
+    <button>
+      Delete
+    </button>
+    <a
+      href="/dogs/5/edit"
+    >
+      Edit
+    </a>
     <header>
       <a
         href="/"

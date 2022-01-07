@@ -30,8 +30,12 @@ export default function EditView() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await updateDog(dog);
-    alert(`${dog.name} was successfully updated!`);
+    const updatedDog = await updateDog(dog);
+    if (updatedDog) {
+      alert(`${dog.name} was successfully updated!`);
+    } else {
+      alert(`${dog.name} was not successfully updated, supabase error.`);
+    }
   };
 
   return (

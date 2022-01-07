@@ -31,6 +31,7 @@ export default function EditView() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     await updateDog(dog);
+    alert(`${dog.name} was successfully updated!`);
   };
 
   return (

@@ -26,6 +26,7 @@ export default function DogCard(props) {
   const handleDelete = async (e) => {
     e.preventDefault();
     await deleteDog(dogCard);
+    alert(`${dogCard.name} was successfully deleted`);
   };
 
   return (

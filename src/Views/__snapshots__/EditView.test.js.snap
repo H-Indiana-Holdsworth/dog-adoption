@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EditView should render header 1`] = `
+<div>
+  <div>
+    <header>
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </header>
+    <div>
+      <form>
+        <label>
+          Name:
+          <input
+            name="name"
+            type="text"
+            value="Lil Mark"
+          />
+        </label>
+        <label>
+          Image URL:
+          <input
+            name="image"
+            type="text"
+            value="https://placedog.net/500?id=41"
+          />
+        </label>
+        Bio:
+        <label>
+          <input
+            name="bio"
+            type="text"
+            value="Hide your Llamas and their milk, Lil Mark loves that stuff"
+          />
+        </label>
+        <label>
+          Breed:
+          <input
+            name="breed"
+            type="text"
+            value="Pug"
+          />
+        </label>
+        <label>
+          Age:
+          <input
+            name="age"
+            type="text"
+            value="6"
+          />
+        </label>
+        <button>
+          Save
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+`;

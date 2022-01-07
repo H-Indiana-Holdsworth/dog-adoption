@@ -27,6 +27,7 @@ export default function DogCard(props) {
     e.preventDefault();
     await deleteDog(dogCard);
     alert(`${dogCard.name} was successfully deleted`);
+    window.location.replace('/');
   };
 
   return (

@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import { getDogsById } from '../services/service-dogs';
 import DogDetail from '../Components/DogDetail';
 import Header from '../Components/Header';
+import { deleteDog } from '../services/service-dogs';
 
 export default function DogCard(props) {
   const [dogCard, setDogCard] = useState([]);
@@ -22,9 +23,16 @@ export default function DogCard(props) {
     return <h3>Loading...</h3>;
   }
 
+  const handleDelete = async (e) => {
+    e.preventDefault();
+    await deleteDog(dogCard);
+    alert(`${dogCard.name} was successfully deleted`);
+    window.location.replace('/');
+  };
+
   return (
     <div>
-      <DogDetail dogCard={dogCard} />
+      <DogDetail dogCard={dogCard} handleDelete={handleDelete} />
       <Header />
     </div>
   );

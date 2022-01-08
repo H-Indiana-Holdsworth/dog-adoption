@@ -1,5 +1,23 @@
-.dog-img {
+.dog-list {
+  display: flex;
+  flex-direction: column;
+  background-color: blanchedalmond;
+}
+
+.header-name {
+  color: rgb(255, 94, 0);
+  font-size: 2.5rem;
+}
+
+.info-link {
+  color: rgb(255, 94, 0);
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.dog-ind {
   height: 30rem;
-  border: 5px solid blue;
-  border-radius: 15%;
+  border: 3rem solid cadetblue;
+  border-radius: 1rem;
+  background-color: blanchedalmond;
 }

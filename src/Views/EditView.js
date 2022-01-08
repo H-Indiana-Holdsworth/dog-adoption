@@ -33,7 +33,7 @@ export default function EditView() {
     try {
       await updateDog(dog);
       alert(`${dog.name} was successfully updated!`);
-    } catch {
+    } catch (e) {
       alert(`${dog.name} was not successfully updated`);
     }
   };

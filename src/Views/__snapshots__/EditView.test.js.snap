@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`EditView should render header 1`] = `
+exports[`EditView should render a name 1`] = `
 <div>
   <div>
     <header>
@@ -53,7 +53,7 @@ exports[`EditView should render header 1`] = `
           <input
             name="age"
             type="text"
-            value="2"
+            value="545"
           />
         </label>
         <button>

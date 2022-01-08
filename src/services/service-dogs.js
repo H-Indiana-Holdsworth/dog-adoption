@@ -27,6 +27,7 @@ export async function createDog(dog) {
     bio: dog.bio,
     breed: dog.breed,
     age: dog.age,
+    image: dog.image,
   });
   return checkError(resp);
 }

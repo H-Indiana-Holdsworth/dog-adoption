@@ -11,6 +11,33 @@ exports[`should render Dogs component 1`] = `
           class="header-name"
         >
           Meet 
+          sterinway
+        </h2>
+        <a
+          href="/dogs/17"
+        >
+          <div>
+            <img
+              class="dog-img"
+              src="https://placedog.net/500?id=80"
+            />
+            <p
+              class="info-link"
+            >
+              sterinway
+               is a 
+              2
+               year old 
+              asdf
+            </p>
+          </div>
+        </a>
+      </div>
+      <div>
+        <h2
+          class="header-name"
+        >
+          Meet 
           Pindy
         </h2>
         <a

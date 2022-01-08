@@ -20,7 +20,7 @@ exports[`EditView should render header 1`] = `
           <input
             name="name"
             type="text"
-            value="Lil Mark"
+            value="sterinway"
           />
         </label>
         <label>
@@ -28,7 +28,7 @@ exports[`EditView should render header 1`] = `
           <input
             name="image"
             type="text"
-            value="https://placedog.net/500?id=41"
+            value="https://placedog.net/500?id=80"
           />
         </label>
         <label>
@@ -37,7 +37,7 @@ exports[`EditView should render header 1`] = `
             class="bio"
             name="bio"
             type="text"
-            value="Hide your Llamas and their milk, Lil Mark loves that stuff"
+            value="yeet yeyet"
           />
         </label>
         <label>
@@ -45,7 +45,7 @@ exports[`EditView should render header 1`] = `
           <input
             name="breed"
             type="text"
-            value="Pug"
+            value="asdf"
           />
         </label>
         <label>
@@ -53,7 +53,7 @@ exports[`EditView should render header 1`] = `
           <input
             name="age"
             type="text"
-            value="6"
+            value="2"
           />
         </label>
         <button>

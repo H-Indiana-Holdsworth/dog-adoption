@@ -25,16 +25,20 @@ exports[`DogCard should render header 1`] = `
         Hide your Llamas and their milk, Lil Mark loves that stuff
       </p>
     </div>
-    <button>
+    <button
+      class="delete-button"
+    >
       Delete
     </button>
     <a
+      class="edit-link"
       href="/dogs/5/edit"
     >
       Edit
     </a>
     <header>
       <a
+        class="home-link"
         href="/"
       >
         Home

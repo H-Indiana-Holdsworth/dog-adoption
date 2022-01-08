@@ -5,12 +5,15 @@ exports[`EditView should render header 1`] = `
   <div>
     <header>
       <a
+        class="home-link"
         href="/"
       >
         Home
       </a>
     </header>
-    <div>
+    <div
+      class="body"
+    >
       <form>
         <label>
           Name:

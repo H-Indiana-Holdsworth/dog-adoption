@@ -6,13 +6,15 @@ exports[`should render container 1`] = `
     <header>
       <a
         aria-current="page"
-        class="active"
+        class="home-link active"
         href="/"
       >
         Home
       </a>
     </header>
-    <div>
+    <div
+      class="body"
+    >
       <form>
         <label>
           Name:

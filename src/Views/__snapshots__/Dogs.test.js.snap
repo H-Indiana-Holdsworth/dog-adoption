@@ -1,0 +1,173 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Dogs component 1`] = `
+<div>
+  <div>
+    <div
+      class="dog-list"
+    >
+      <div>
+        <h2
+          class="header-name"
+        >
+          Meet 
+          Myra
+        </h2>
+        <a
+          href="/dogs/2"
+        >
+          <div>
+            <img
+              class="dog-img"
+              src="https://placedog.net/500?id=73"
+            />
+            <p
+              class="info-link"
+            >
+              Myra
+               is a 
+              2
+               year old 
+              Shepard mix
+            </p>
+          </div>
+        </a>
+      </div>
+      <div>
+        <h2
+          class="header-name"
+        >
+          Meet 
+          Pindy
+        </h2>
+        <a
+          href="/dogs/3"
+        >
+          <div>
+            <img
+              class="dog-img"
+              src="https://placedog.net/500?id=23"
+            />
+            <p
+              class="info-link"
+            >
+              Pindy
+               is a 
+              8
+               year old 
+              Terrier
+            </p>
+          </div>
+        </a>
+      </div>
+      <div>
+        <h2
+          class="header-name"
+        >
+          Meet 
+          Jandroo
+        </h2>
+        <a
+          href="/dogs/4"
+        >
+          <div>
+            <img
+              class="dog-img"
+              src="https://placedog.net/500?id=20"
+            />
+            <p
+              class="info-link"
+            >
+              Jandroo
+               is a 
+              14
+               year old 
+              Nike
+            </p>
+          </div>
+        </a>
+      </div>
+      <div>
+        <h2
+          class="header-name"
+        >
+          Meet 
+          Lil Mark
+        </h2>
+        <a
+          href="/dogs/5"
+        >
+          <div>
+            <img
+              class="dog-img"
+              src="https://placedog.net/500?id=41"
+            />
+            <p
+              class="info-link"
+            >
+              Lil Mark
+               is a 
+              6
+               year old 
+              Pug
+            </p>
+          </div>
+        </a>
+      </div>
+      <div>
+        <h2
+          class="header-name"
+        >
+          Meet 
+          Kelm Melm
+        </h2>
+        <a
+          href="/dogs/1"
+        >
+          <div>
+            <img
+              class="dog-img"
+              src="https://placedog.net/500?id=97"
+            />
+            <p
+              class="info-link"
+            >
+              Kelm Melm
+               is a 
+              88
+               year old 
+              German shepard mix
+            </p>
+          </div>
+        </a>
+      </div>
+      <div>
+        <h2
+          class="header-name"
+        >
+          Meet 
+          Mandy
+        </h2>
+        <a
+          href="/dogs/16"
+        >
+          <div>
+            <img
+              class="dog-img"
+            />
+            <p
+              class="info-link"
+            >
+              Mandy
+               is a 
+              3
+               year old 
+              Shepard
+            </p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

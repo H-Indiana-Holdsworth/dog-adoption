@@ -1,8 +1,9 @@
 import React from 'react';
+import './DogForm.css';
 
 export default function DogForm({ name, image, bio, breed, age, updateDogState, handleSubmit }) {
   return (
-    <div>
+    <div className="body">
       <form>
         <label>
           Name:
@@ -26,9 +27,10 @@ export default function DogForm({ name, image, bio, breed, age, updateDogState, 
             }}
           />
         </label>
-        Bio:
         <label>
+          Bio:
           <input
+            className="bio"
             type="text"
             name="bio"
             value={bio}

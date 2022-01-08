@@ -30,9 +30,10 @@ exports[`should render container 1`] = `
             value=""
           />
         </label>
-        Bio:
         <label>
+          Bio:
           <input
+            class="bio"
             name="bio"
             type="text"
             value=""

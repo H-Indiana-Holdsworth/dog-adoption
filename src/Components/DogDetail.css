@@ -1,5 +1,28 @@
+.dog-card {
+  font-size: 1.5rem;
+  color: rgb(255, 94, 0);
+
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+}
+
 .dog-img {
   height: 30rem;
-  border: 5px solid blue;
-  border-radius: 15%;
+  border: 3rem solid cadetblue;
+  border-radius: 1rem;
+}
+
+.delete-button {
+  font-size: 2rem;
+  padding: 0.5rem;
+}
+
+.edit-link {
+  color: rgb(255, 94, 0);
+  background-color: cadetblue;
+  border-radius: 1rem;
+  font-size: 2rem;
+  margin-left: 1rem;
+  padding: 0.5rem;
 }

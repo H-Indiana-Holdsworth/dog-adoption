@@ -28,9 +28,10 @@ exports[`EditView should render header 1`] = `
             value="https://placedog.net/500?id=41"
           />
         </label>
-        Bio:
         <label>
+          Bio:
           <input
+            class="bio"
             name="bio"
             type="text"
             value="Hide your Llamas and their milk, Lil Mark loves that stuff"

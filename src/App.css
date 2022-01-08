@@ -2,6 +2,15 @@
   text-align: center;
 }
 
+.admin-link {
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  background-color: cadetblue;
+  color: rgb(255, 94, 0);
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

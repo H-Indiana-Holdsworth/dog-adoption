@@ -7,12 +7,14 @@ export default function DogList({ dogs }) {
     <div className="dog-list">
       {dogs.map((item) => (
         <div key={item.id}>
-          <h2>Meet {item.name}</h2>
+          <h2 className="header-name">Meet {item.name}</h2>
           <Link to={`/dogs/${item.id}`}>
-            <p>
+            <div>
               <img className="dog-img" src={item.image} />
-              {item.name} is a {item.age} year old {item.breed}
-            </p>
+              <p className="info-link">
+                {item.name} is a {item.age} year old {item.breed}
+              </p>
+            </div>
           </Link>
         </div>
       ))}

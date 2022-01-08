@@ -14,9 +14,13 @@ export default function DogDetail({ dogCard, handleDelete }) {
         <p>{dogCard.bio}</p>
       </div>
 
-      <button onClick={handleDelete}>Delete</button>
+      <button onClick={handleDelete} className="delete-button">
+        Delete
+      </button>
 
-      <Link to={`/dogs/${dogCard.id}/edit`}>Edit</Link>
+      <Link to={`/dogs/${dogCard.id}/edit`} className="edit-link">
+        Edit
+      </Link>
     </>
   );
 }

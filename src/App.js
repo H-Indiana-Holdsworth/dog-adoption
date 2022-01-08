@@ -10,7 +10,9 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <NavLink to="/admin">Admin</NavLink>
+        <NavLink to="/admin" className="admin-link">
+          Admin
+        </NavLink>
         <Switch>
           <Route exact path="/" component={Dogs} />
           <Route exact path="/dogs/:id" component={DogCard} />

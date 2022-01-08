@@ -3,7 +3,7 @@ import DogForm from '../Components/DogForm';
 import Header from '../Components/Header';
 import { useState, useEffect } from 'react';
 import { getDogsById, updateDog } from '../services/service-dogs';
-import { useParams } from 'react-router-dom/cjs/react-router-dom.min';
+import { useParams } from 'react-router-dom';
 
 export default function EditView() {
   const [dog, setDog] = useState({});

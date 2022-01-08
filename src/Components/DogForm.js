@@ -23,7 +23,7 @@ export default function DogForm({ name, image, bio, breed, age, updateDogState, 
             name="image"
             value={image}
             onChange={(e) => {
-              updateDogState('text', e.target.value);
+              updateDogState('image', e.target.value);
             }}
           />
         </label>
